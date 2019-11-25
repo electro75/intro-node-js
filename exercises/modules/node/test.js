@@ -1,4 +1,4 @@
-const data = require('./data')
+const data = require('./data');
 const api = require('./api')
 const app = require('./app')
 

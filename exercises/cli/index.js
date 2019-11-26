@@ -20,6 +20,9 @@ program
         contacts[key] = {firstName, lastName, phoneNumber}
         saveContacts(contacts)
       })
+      .catch(error => {
+        console.log(error);
+      })
   })
 
 program
